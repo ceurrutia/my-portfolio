@@ -157,7 +157,7 @@ p{
     }
 
     h1 {
-        font-size: 4em;
+        font-size: 3em;
         
     }
 
@@ -182,5 +182,10 @@ p{
     .card-lightening-green,
     .card-lightening-yellow {
         width: 100%;
+    }
+    .titulos{
+        
+        margin: 20px;
+        
     }
 }
