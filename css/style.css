@@ -1,0 +1,150 @@
+* {
+    background-color: #272727;
+    color:#f2f2f2;
+}
+section{
+    width:100%;
+}
+
+.titulos{
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Tilt neon', sans-serif;
+    font-size: 6em;
+    color: #fab638;
+    text-align: left;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Tilt neon', sans-serif;
+    font-size: 3em;
+    color: #fab638;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Noto sans', sans-serif;
+    font-size: 2em;
+    color: #666666;
+    text-align: center;
+    font-weight: bold;
+   
+}
+p a, p a:hover{
+    font-size: 1.2em;
+    color:#666 ;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Noto sans', sans-serif;
+    font-size: 1em;
+    color: #e4e4e4;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+    margin: 30px;
+}
+
+.card-lightening-fucsia{
+    box-shadow: 0px 0px 6px #ff00f2, 0px 0px 0px 3px #ff00f2 inset;
+    border: 1px solid #ff00b7;
+    
+    width: 25%;
+    border-radius: 40px;
+    margin:10px;
+    padding: 20px;
+   
+}
+
+.card-lightening-blue{
+    box-shadow: 0px 0px 6px #969eeb, 0px 0px 0px 3px #969eeb inset;
+    border: 1px solid #abb2f1;
+   
+    width: 25%;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 20px;
+   
+}
+
+.card-lightening-green{
+    box-shadow: 0px 0px 6px #0dcf47, 0px 0px 0px 3px #0dcf47 inset;
+    border: 1px solid #0dcf55;
+    
+    width: 25%;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.card-lightening-yellow{
+    box-shadow: 0px 0px 6px #fab638, 0px 0px 0px 3px #fab638 inset;
+    border: 1px solid #fab644;
+    
+    width: 25%;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.bot{
+    padding: 10px;
+    color: white;
+    margin:10px;
+   
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Noto Sans';
+    font-size: 1em;
+    
+}
+
+.fucsia{
+    background-color: #ff00f2;
+    border: 1px solid #ff00f2;
+}
+
+.blue{
+    background-color: #6e76c2;
+    border: 1px solid #6e76c2;
+}
+
+.green{
+    background-color:#0dcf47;
+    border: 1px solid #0dcf47;
+}
+
+.yellow{
+    background-color: #fab644;
+    border: 1px solid #fab644;
+}
+
+.about{
+    width: 90%;
+    margin:auto;
+    padding: 20px;
+}
