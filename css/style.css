@@ -1,6 +1,7 @@
 * {
     background-color: #272727;
     color:#f2f2f2;
+    box-sizing: border-box;
 }
 section{
     width:100%;
@@ -20,7 +21,7 @@ h1{
     font-family: 'Tilt neon', sans-serif;
     font-size: 6em;
     color: #fab638;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -43,7 +44,7 @@ h3{
 p a, p a:hover{
     font-size: 1.2em;
     color:#666 ;
-    font-weight: bold;
+    font-weight: bold;text-decoration: none;
 }
 
 p{
@@ -59,6 +60,7 @@ p{
 
 .container{
     display: flex;
+    flex-wrap: wrap;
     justify-items: center;
     justify-content: center;
     width: 90%;
@@ -70,7 +72,7 @@ p{
     box-shadow: 0px 0px 6px #ff00f2, 0px 0px 0px 3px #ff00f2 inset;
     border: 1px solid #ff00b7;
     
-    width: 25%;
+    width: 30%;
     border-radius: 40px;
     margin:10px;
     padding: 20px;
@@ -81,7 +83,7 @@ p{
     box-shadow: 0px 0px 6px #969eeb, 0px 0px 0px 3px #969eeb inset;
     border: 1px solid #abb2f1;
    
-    width: 25%;
+    width: 30%;
     border-radius: 40px;
     margin: 10px;
     padding: 20px;
@@ -92,7 +94,7 @@ p{
     box-shadow: 0px 0px 6px #0dcf47, 0px 0px 0px 3px #0dcf47 inset;
     border: 1px solid #0dcf55;
     
-    width: 25%;
+    width: 30%;
     border-radius: 40px;
     margin: 10px;
     padding: 20px;
@@ -103,7 +105,7 @@ p{
     box-shadow: 0px 0px 6px #fab638, 0px 0px 0px 3px #fab638 inset;
     border: 1px solid #fab644;
     
-    width: 25%;
+    width: 30%;
     border-radius: 40px;
     margin: 10px;
     padding: 20px;
@@ -147,4 +149,38 @@ p{
     width: 90%;
     margin:auto;
     padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .titulos {
+        margin: 50px 10px;
+    }
+
+    h1 {
+        font-size: 4em;
+        
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .container {
+        margin: 10px;
+    }
+
+    .card-lightening-fucsia,
+    .card-lightening-blue,
+    .card-lightening-green,
+    .card-lightening-yellow {
+        width: 100%;
+    }
 }
